@@ -1,4 +1,4 @@
-hydrantlabs.org-theme
+hydrantlabs.org ghost theme
 =====================
 
 The Ghost theme behind hydrantlabs.org
