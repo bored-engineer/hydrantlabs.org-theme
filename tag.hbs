@@ -1,0 +1,17 @@
+{{!< default}}
+
+<h1 class="tag-headline"><span>Articles with tag "{{tag.name}}"</span></h1>
+
+{{#foreach posts}}
+
+<article class="home {{post_class}}">
+	<h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+    <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd Do MMMM YYYY"}}</time></span>
+    <section class="post-excerpt">
+        <p>{{excerpt}}&hellip;</p>
+    </section>
+</article>
+
+{{/foreach}}
+
+{{pagination}}
